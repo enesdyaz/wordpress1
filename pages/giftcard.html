@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://kit.fontawesome.com/ec001ec395.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+
+<!---------------------------------------------->
+<!-- <HEADER> menu ----------------------------->
+<!---------------------------------------------->
+<br>
+<header id="menu">
+    <div class="logo">
+        <div class="img-wrap">
+            <img src="./assets/img/logo-transparent.png" alt="">
+        </div>
+    </div>
+  <br>    
+    <div class="grid-container">
+        <div class="grid-x small-up-6 medium-up-8">
+            <div class="cell"><a href="/foundation/index.html">HOME</a></div>
+            <div class="cell"><a href="/foundation/pots.html">POTS</a></div>
+            <div class="cell"><a href="/foundation/plants.html">PLANTS</a></div>
+            <div class="cell"><a href="/foundation/tools.html">TOOLS</a></div>
+            <div class="cell"><a href="/foundation/giftcard.html">GIFT</a></div>
+            <div class="cell"><a href="/foundation/fertiliser.html">FERTI</a></div>
+            <div class="cell"><i class='fa fa-search fa-1x'></i></div>
+            <div class="cell"><i class="fa fa-cart-plus fa-1x"></i></div>
+        </div>    
+    </div>
+  </header>
+
+
+<!---------------------------------------------->
+<!-- <SECTION> jumbotron ----------------------->
+<!---------------------------------------------->
+<section id="jumbotron">
+    <div class="grid-container">
+        <div class="cell">
+            <img src="./assets/img/DATA/gift/jumbotron-gift.png" alt="main-jumbotron">
+        </div>
+    </div>
+    
+</section>
+
+<!---------------------------------------------->
+<!-- <aside> 2 column--- ----------------------->
+<!---------------------------------------------->
+
+<aside id='aside'>
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+
+<!---------------------------------------------->
+<!-- <aside> 2 column- left column-------------->
+<!---------------------------------------------->              
+            <div class="left cell medium-2">
+
+                <div class="category">
+                    <fieldset class="fieldset">
+                        <legend>CATEGORY</legend>
+                        <input id="checkbox12" type="checkbox"><label for="checkbox12">Checkbox 1</label><br>
+                        <input id="checkbox22" type="checkbox"><label for="checkbox22">Checkbox 2</label><br>
+                        <input id="checkbox32" type="checkbox"><label for="checkbox32">Checkbox 3</label>
+                    </fieldset>
+                </div>
+
+                <div class="color">
+                    <fieldset class="fieldset">
+                        <legend>COLOR</legend>
+                        <input id="checkbox12" type="checkbox"><label for="checkbox12">Checkbox 1</label><br>
+                        <input id="checkbox22" type="checkbox"><label for="checkbox22">Checkbox 2</label><br>
+                        <input id="checkbox32" type="checkbox"><label for="checkbox32">Checkbox 3</label>
+                    </fieldset>
+                </div>
+
+                <div class="price">
+                    <fieldset class="fieldset">
+                        <legend>PRICE</legend>
+                        <input id="checkbox12" type="checkbox"><label for="checkbox12">$0 - $100</label><br>
+                        <input id="checkbox22" type="checkbox"><label for="checkbox22">$100-$300</label><br>
+                        <input id="checkbox32" type="checkbox"><label for="checkbox32">$300-$100</label>
+                    </fieldset>
+                </div>
+            </div>
+
+<!---------------------------------------------->
+<!-- <aside> 2 column- right column------------->
+<!---------------------------------------------->  
+        <div class="right cell medium-10">
+            <div class="off-canvas-wrap">
+                <button type="button" class="button" data-toggle="offCanvas">FILTER</button>
+                <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+                <!-- Your menu or Off-canvas content goes here -->
+                <ul class="menu vertical">
+                    <li><a href="#">Filter</a></li>
+                    <li><a href="#">Filter</a></li>
+                    <li><a href="#">Filter</a></li>
+                    <li><a href="#">Filter</a></li>
+                </ul>
+                </div>      
+            </div>
+
+<!-- breadcumb ---------------------------------->
+            <nav class='breadcumb' aria-label="You are here:" role="navigation">
+                <ul class="breadcrumbs">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li class="disabled">Gene Splicing</li>
+                    <li>
+                    <span class="show-for-sr">Current: </span> Cloning
+                    </li>
+                </ul>
+              </nav>
+
+<!-- MAIN TITLE and Subtitle-->              
+            <h2> GIFT - choose your favorite your selection</h2>
+            
+
+<!--  Card start here -------------------------->
+                <div class="grid-x grid-padding-x small-up-2  medium-up-3 large-up-4">
+                    
+                    <div class="cell">
+                        <div class="card">
+                            <img src="./assets/img/DATA/gift/Free_Shipping_400x300_FA_large (1).png" alt="">
+                            <div class="card-section text-center">
+                                <div class='title'>gift set 1</div>
+                                <div class='subtitle'>from: $24.99</div><br>
+                                <a href='/foundation/unit-giftcard.html'><button class='button expanded'>VIEW</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cell">
+                        <div class="card">
+                            <img src="./assets/img/DATA/gift/Free_Shipping_400x300_FA_large (1).png" alt="">
+                            <div class="card-section text-center">
+                                <div class='title'>gift set 2</div>
+                                <div class='subtitle'>from: $24.99</div><br>
+                                <a href='/foundation/unit-giftcard.html'><button class='button expanded'>VIEW</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+            
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <nav aria-label="Pagination">
+        <ul class="pagination text-center">
+            <li class="pagination-previous disabled">Previous</li>
+            <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+            <li><a href="#" aria-label="Page 2">2</a></li>
+            <li><a href="#" aria-label="Page 3">3</a></li>
+            <li><a href="#" aria-label="Page 4">4</a></li>
+            <li class="ellipsis"></li>
+            <li><a href="#" aria-label="Page 12">12</a></li>
+            <li><a href="#" aria-label="Page 13">13</a></li>
+            <li class="pagination-next"><a href="#" aria-label="Next page">Next</a></li>
+        </ul>
+      </nav>
+</aside>
+
+
+<!---------------------------------------------->
+<!-- <FOOTER-contents> footer section ------>
+<!---------------------------------------------->
+<br><br><br>
+<footer>
+  <div class="grid-container full">
+    <div class="grid-x">
+      <div class="cell footer1 small-6">
+        <img src="./assets/img/logo-transparent.png" width="30%" alt="">
+        <p>
+      </div>
+
+      <div class="cell footer2 small-6" style='text-align: left;padding-left: 10px;margin-top: 50px;;'>
+          Gerogia Garden Shop <br>
+          designed for Assessment at NMT <br>
+          J384388@tafe.wa.edu.au <br>
+          Haryong Jung <br><br>
+          <button class='button'>contact</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+       
+<script src='./assets/js/app.js'></script>
+</body>
+</html>

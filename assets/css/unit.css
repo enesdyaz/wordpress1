@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Nanum+Gothic&display=swap");
+.title {
+  font-size: 1.4rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+}
+
+#menu {
+  margin-bottom: 1vh;
+}
+
+#menu .logo .img-wrap {
+  text-align: center;
+}
+
+#menu .logo .img-wrap img {
+  width: 15%;
+}
+
+#menu .grid-container {
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  padding: 10px;
+}
+
+#menu .grid-container .grid-x {
+  text-align: center;
+}
+
+#menu .grid-container .grid-x .cell a {
+  color: #123;
+}
+
+#menu .grid-container .grid-x .cell a:hover {
+  color: #567;
+}
+
+footer {
+  background: whitesmoke;
+  height: 250px;
+  color: #46596b;
+  padding: 20px;
+}
+
+footer .footer1 img {
+  padding-right: 10px;
+  float: right;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 460px) {
+  #menu .logo .img-wrap img {
+    width: 35%;
+  }
+  #menu .cell:nth-child(n+1):nth-child(-n+6) {
+    font-size: 0.7rem;
+  }
+  #menu .cell:nth-child(7) {
+    display: none;
+  }
+  #menu .cell:nth-child(8) {
+    display: none;
+  }
+  footer .footer1 img {
+    width: 80%;
+  }
+  footer .footer2 {
+    font-size: 0.7rem;
+  }
+  footer .button {
+    font-size: 0.6rem;
+  }
+}
+/*# sourceMappingURL=unit.css.map */

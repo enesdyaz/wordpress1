@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    color: white;
+    width: 100%;
+    height: 60px;
+    background: #123;
+    position: fixed;
+    ul{
+        li{
+            float: left;
+            list-style: none;
+            margin-left: 20px;
+            a{
+                color: rgb(191, 190, 248);
+                text-decoration: none;
+                cursor: pointer;
+                &:hover{
+                    color: white;
+                }
+            } 
+        }
+
+    }
+}
+
+
+#jumbotron{
+    
+    .jumbotron{
+        font-size: 100px;
+        height: 600px;
+        background: url('../img/carousel1.jpg') no-repeat;
+        text-align: center;
+        
+        .text_image{
+            display: inline;
+    
+            background: rgba(255, 255, 255, 0.3);
+            font-size: 30px;
+            line-height: 450px;
+            
+        }
+    }
+}
+
+#gallery{
+    margin-top: 80px;
+    .featured-image-block-grid-header {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .featured-image-block {
+      
+        margin-bottom: 20px;
+        
+        .featured-image-block-title {
+          font-weight: 600;
+          margin-top: 10px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-size: 1em;
+          color: #404040;
+        }
+       
+        a:hover {
+          p {
+          }
+        }
+      }
+}
+
+footer{
+    background: whitesmoke;
+    height: 250px;
+    color: rgb(70, 89, 107);
+    padding: 20px;
+    .footer1{
+        img{
+            padding-right: 10px;
+            float: right;
+            margin-top: 50px;
+        }
+        
+    }
+}

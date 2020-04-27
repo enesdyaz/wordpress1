@@ -1,0 +1,69 @@
+//header - menu - background color
+$bg-menu: #e0f7fa;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0; padding: 0;
+}
+li{
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Playfair Display', serif;
+    color: rgb(78, 76, 76);
+}
+
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+//---------------------------------------------->
+//-- <HEADER> menu ----------------------------->
+//---------------------------------------------->
+#menu{
+    .top-bar{
+        background: $bg-menu;
+        li{
+            background: $bg-menu;
+        }
+    }
+}
+
+//---------------------------------------------->
+//-- <SECTION> orbit --------------------------->
+//---------------------------------------------->
+
+
+//---------------------------------------------->
+//-- <SECTION> logo and subtitle---------------->
+//---------------------------------------------->
+#section-logo{
+    background: #e0f7fa;
+    padding: 40px;
+}
+
+
+
+@media screen and ( max-width: 420px){
+    #menu{
+        .top-bar{
+            .top-bar-left{
+
+            }
+            .top-bar-right{
+                font-size: 0.9rem;
+                    ul{
+                        li{
+                            a{
+                                display: none;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+}
